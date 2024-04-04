@@ -1,0 +1,241 @@
+# front
+front-end trabalho de RAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{ ℕ𝕒𝕙𝕛𝕝𝕒❜𝕤 𝕓𝕒𝕜𝕖𝕣𝕪 }</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            color: #666;
+        }
+        .produtos {
+            list-style: none;
+            padding: 0;
+        }
+        .produto {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ℕ𝕒𝕙𝕛𝕝𝕒❜𝕤 𝕓𝕒𝕜𝕖𝕣𝕪</h1>
+        <p>🇳​​​​​🇴​​​​​🇸​​​​​ 🇸​​​​​🇴​​​​​🇳​​​​​🇭​​​​​🇴​​​​​🇸​​​​​ 🇲​​​​​🇦​​​​​🇮​​​​​🇸​​​​​ 🇩​​​​​🇴​​​​​🇨​​​​​🇪​​​​​🇸​​​​​</p>
+        
+        <h2>𝕭𝖔𝖑𝖔𝖘</h2>
+        <ul class="produtos">
+            𝕭𝖔𝖑𝖔𝖘 𝖉𝖊 𝖕𝖔𝖙𝖊𝖘
+                <li class="produto">
+                    <strong>Bolo ninho trufado</strong> - 17,50
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+                <li class="produto">
+                    <strong>Bolo KitKat</strong> - 19,00
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+                <li class="produto">
+                    <strong>Bolo Red Vetelt</strong> - 18,00
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+
+                    <h2>𝕭𝖔𝖑𝖔𝖘 𝕮𝖆𝖘𝖊𝖎𝖗𝖔𝖘</h2>
+       
+                <li class="produto">
+                    <strong>𝙱𝚘𝚕𝚘 𝙲𝚊𝚜𝚎𝚒𝚛𝚘 𝚍𝚎 𝙲𝚑𝚘𝚌𝚘𝚕𝚊𝚝𝚎 𝚌𝚘𝚖 𝙽𝚄𝚃𝙴𝙻𝙻𝙰®</strong> - 65,99
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+
+                <li class="produto">
+                    <strong>𝙱𝚘𝚕𝚘 𝙲𝚊𝚜𝚎𝚒𝚛𝚘 𝚍𝚎 𝙲𝚎𝚗𝚘𝚞𝚛𝚊 𝚌𝚘𝚖 𝙽𝚄𝚃𝙴𝙻𝙻𝙰®</strong> - 65,99
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+
+                <li class="produto">
+                    <strong>𝙱𝚘𝚕𝚘 𝚅𝚞𝚕𝚌𝚊̃𝚘 𝚍𝚎 𝙻𝚎𝚒𝚝𝚎 𝙽𝚒𝚗𝚑𝚘® 𝚌𝚘𝚖 𝙶𝚘𝚒𝚊𝚋𝚊𝚍𝚊</strong> - 63,99
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                </li>
+
+                <li class="produto">
+                    <strong>𝙵𝚘𝚛𝚖𝚒𝚐𝚞𝚎𝚒𝚛𝚘</strong> - 25,00
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                </li>
+
+                <h2>𝙵𝚊𝚟𝚘𝚛𝚒𝚝𝚘𝚜</h2>
+        <ul class="produtos">
+            
+                <li class="produto">
+                    <strong>𝙲𝚊𝚗𝚗𝚘𝚕𝚒 𝚃𝚛𝚊𝚍𝚒𝚌𝚒𝚘𝚗𝚊𝚕</strong> - 17,90
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+                <li class="produto">
+                    <strong>𝙲𝚊𝚗𝚗𝚘𝚕𝚒 𝙲𝚑𝚘𝚌𝚘𝚕𝚊𝚝𝚎</strong> - 18,90
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+                <li class="produto">
+                    <strong>𝚃𝚘𝚛𝚝𝚊 𝚍𝚎 𝙻𝚒𝚖𝚊̃𝚘</strong> - 7,50
+                    <select class="quantidade-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <li class="produto">
+                        <strong>𝚃𝚘𝚛𝚝𝚊 𝙷𝚘𝚕𝚊𝚗𝚍𝚎𝚜𝚊</strong> - 7,90
+                        <select class="quantidade-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </li>
+                    <li class="produto">
+                        <strong>𝚃𝚘𝚛𝚝𝚊 𝚃𝚛𝚞𝚏𝚊𝚍𝚊</strong> - 7,90
+                        <select class="quantidade-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <li class="produto">
+                            <strong>𝚃𝚘𝚛𝚝𝚊 𝙲𝚊𝚛𝚒𝚋𝚎</strong> - 7,90
+                            <select class="quantidade-select">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <li class="produto">
+                                <strong>𝙱𝚛𝚘𝚠𝚗𝚒𝚎 𝙸𝚗𝚟𝚎𝚛𝚜𝚎</strong> - 15,99
+                                <select class="quantidade-select">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <li class="produto">
+                                    <strong>𝙿𝚊𝚕𝚑𝚊 𝙸𝚝𝚊𝚕𝚒𝚊𝚗𝚊</strong> - 7,00
+                                    <select class="quantidade-select">
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+
+                <i class="fas fa-shopping-cart carrinho-icon" onclick="toggleCarrinho()"></i>
+
+        <!-- Carrinho de compras -->
+        <div class="carrinho" id="carrinho">
+            <p>Carrinho de Compras</p>
+            <ul id="produtos-selecionados">
+                <!-- Os produtos selecionados serão exibidos aqui -->
+            </ul>
+        </div>
+    </div>
+
+        
+     
+   
+    </style>
+</head>
+<body>
+
+</html>
